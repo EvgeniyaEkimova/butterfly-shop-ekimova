@@ -1,10 +1,25 @@
 .header-inner {
-  width: 1276px;
-  margin: 0 auto;
-  border: 1px solid red;
+ @include inner;
+
+}
+
+.header {
+padding: 16px 0;
+background-color: $color-dark;
+
 }
 
 .header-wrap {
   display: flex;
   align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+  font-size: 42px;
+  line-height: 57px;
+  font-weight: 600;
+  color: $color-light;
+  font-family: $font;
+  text-decoration: none;
 }

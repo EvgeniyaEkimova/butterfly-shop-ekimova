@@ -1,0 +1,48 @@
+.catalog {
+  padding: 130px 0;
+}
+
+.catalog-inner {
+  @include inner;
+
+}
+
+.catalog-title {
+  color: $color-dark;
+  font-family: $font;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  font-weight: 400;
+
+
+}
+
+.catalog-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.catalog-item {
+  flex-basis: calc(25% - 15px);
+}
+
+.catalog-card {
+  position: relative;
+  display: block;
+
+
+}
+
+figcaption {
+  position: absolute;
+  color: $color-light;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.40);
+
+}
