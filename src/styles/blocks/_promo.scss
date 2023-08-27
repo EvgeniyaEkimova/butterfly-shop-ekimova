@@ -1,5 +1,10 @@
 .promo {
   padding: 200px 0;
+  background-image: url(/images/promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center;
+
 
 
 
@@ -14,6 +19,7 @@
 
 .promo-title {
   margin-bottom: 100px;
+  color: $color-light;
   font-size: 72px;
   line-height: 98px;
   font-weight: 600;
