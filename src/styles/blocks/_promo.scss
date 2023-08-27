@@ -8,12 +8,12 @@
 
 .promo-inner {
   @include inner;
+  text-align: center;
 
 }
 
 .promo-title {
   margin-bottom: 100px;
-  text-align: center;
   font-size: 72px;
   line-height: 98px;
   font-weight: 600;
