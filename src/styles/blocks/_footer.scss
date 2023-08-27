@@ -1,0 +1,28 @@
+.footer {
+  padding: 31px 0;
+  color: $color-light;
+  background-color: $color-dark;
+}
+
+.footer-inner {
+  @include inner;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  @include logo;
+}
+
+.footer-phone {
+  margin-right: 60px;
+  color: $color-light;
+  font-family: $font;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  text-decoration: none;
+
+
+}

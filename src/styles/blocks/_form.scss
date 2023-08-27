@@ -1,0 +1,34 @@
+.form {
+  margin: 90px auto 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.form-field {
+  flex-basis: 100%;
+
+}
+
+.form-lebel {
+  color: $color-dark;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+
+}
+
+.form-input {
+  padding: 20px;
+  margin-top: 8px;
+  border-radius: 6px;
+  font-family: $font;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  color: $color-dark;
+  background-color: $color-light;
+  border: none;
+
+}
