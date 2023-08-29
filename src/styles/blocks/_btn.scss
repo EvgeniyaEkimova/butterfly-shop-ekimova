@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   min-width: 497px;
-  padding: 30px 36px 31px 48px;
+  padding: 30px 0;
   font-family: $font;
   text-align: center;
   font-size: 42px;
@@ -16,6 +16,10 @@
 
 }
 
+.btn-catalog {
+  margin-top: 120px;
+
+}
 
 .btn-order {
   padding: 35px 0;
