@@ -1,5 +1,10 @@
 .menu {
 
+  @media (max-width: $mobile-max) {
+
+
+  }
+
 ul {
   display: flex;
   gap: 10px;
@@ -13,6 +18,7 @@ a {
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 33px 25px;
 }
 
 }

@@ -2,6 +2,12 @@
   width: 1276px;
   margin: 0 auto;
   border: 1px solid red;
+
+  @media (max-width: $tablet-max) {
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
 }
 
 @mixin logo {
@@ -12,4 +18,14 @@
   color: $color-light;
   font-family: $font;
   text-decoration: none;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 38px;
+  }
 }

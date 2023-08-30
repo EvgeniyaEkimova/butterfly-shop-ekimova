@@ -16,6 +16,17 @@
   text-align: center;
   font-weight: 400;
 
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+
+  }
+
 
 }
 
@@ -24,10 +35,36 @@
   gap: 20px;
   flex-wrap: wrap;
 
+
+  @media (max-width: $tablet-max) {
+    margin-top: 80px;
+    row-gap: 20px;
+
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+
+
+  }
 }
 
 .catalog-item {
   flex-basis: calc(25% - 15px);
+
+
+  @media (max-width: $tablet-max) {
+    flex-basis: calc(50% - 10px);
+
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 20px;
+
+
+  }
+
+
 }
 
 .catalog-card {
@@ -48,5 +85,17 @@ figcaption {
   font-weight: 400;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.40);
+
+  @media (max-width: $tablet-max) {
+
+
+
+  }
+
+  @media (max-width: $mobile-max) {
+
+
+
+  }
 
 }
