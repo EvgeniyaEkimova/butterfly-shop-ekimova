@@ -1,24 +1,28 @@
 .menu {
 
-  @media (max-width: $mobile-max) {
+  @media (max-width: $mobile-max) {}
+
+  ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
 
 
   }
 
-ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
+  a {
+    display: block;
+    color: $color-light;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 33px 25px;
 
-}
-a {
-  color: $color-light;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 33px 25px;
-}
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
 
 }

@@ -9,10 +9,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer-logo {
   @include logo;
+
+  @media (max-width: $mobile-max) {
+    margin-top: 30px;
+  }
 }
 
 .footer-phone {
