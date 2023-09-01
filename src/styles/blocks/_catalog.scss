@@ -56,28 +56,23 @@
 .catalog-item {
   flex-basis: calc(25% - 15px);
 
-
   @media (max-width: $tablet-max) {
     flex-basis: calc(50% - 10px);
-
   }
 
   @media (max-width: $mobile-max) {
     margin-top: 20px;
-
-
   }
-
-
 }
 
 .catalog-card {
   position: relative;
   display: block;
-
 }
 
-
+.card-image {
+  width: 100%;
+}
 
 figcaption {
   bottom: 0;

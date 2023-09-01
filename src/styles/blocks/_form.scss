@@ -3,6 +3,7 @@
   display: flex;
   gap: 20px;
   align-items: flex-end;
+  flex-wrap: wrap;
 
   @media (max-width: $tablet-max) {
     width: auto;
@@ -18,18 +19,21 @@
 }
 
 .form-field {
-  flex-basis: 100%;
+  flex-basis: calc(33.33% - 13.33px);
 
   @media (max-width: $tablet-max) {
     flex-basis: calc(50% - 10px)
-
-
   }
 
   @media (max-width: $mobile-max) {
     margin-top: 30px;
   }
+}
 
+.form-field-half {
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+  }
 }
 
 .form-lebel {
