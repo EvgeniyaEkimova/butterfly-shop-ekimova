@@ -4,6 +4,7 @@
   margin-bottom: 40px;
   justify-content: center;
   align-items: center;
+  list-style: none;
 
 }
 
@@ -15,4 +16,8 @@
   color: rgb(0, 0, 0, 0.80);
   text-decoration: none;
   text-transform: uppercase;
+
+  &.active {
+    color: $color-accent;
+  }
 }

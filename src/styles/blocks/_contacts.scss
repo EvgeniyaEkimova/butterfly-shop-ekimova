@@ -1,0 +1,25 @@
+.contacts {
+  padding: 130px 0;
+  color: $color-dark;
+}
+.contacts-inner {
+  @include inner;
+}
+
+.contacts-title {
+  font-family: $font;
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 60px;
+  line-height: 82px;
+  font-weight: 400;
+}
+
+.contacts-info {
+  display: none;
+  margin-top: 40px;
+
+  &.visible {
+    display: block;
+  }
+}
