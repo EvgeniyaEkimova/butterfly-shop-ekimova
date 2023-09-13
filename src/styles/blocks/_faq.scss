@@ -1,0 +1,19 @@
+.faq {
+  padding: 130px 0;
+}
+
+.faq-inner {
+  @include inner;
+}
+
+.faq-title {
+  font-family:$font;
+  font-size: 64px;
+  line-height: 87px;
+  font-weight: 400;
+  color: $color-dark;
+  margin-bottom: 77px;
+  text-align: center;
+}
+
+

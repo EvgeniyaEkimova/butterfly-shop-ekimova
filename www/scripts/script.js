@@ -18,6 +18,25 @@ $('.js-tab-link').on('click', function (event) {
   $('.js-contacts-info').eq(index).addClass('visible');
 
 
+
+  // FAQ
+  let=prevFaqBtn
+
+ $('.js-faq-btn').on('click', function(){
+  if(this == prevFaqBtn){
+    $(this).next().slideToggle();
+
+  } else {
+    $(prevFaqBtn).next().slideUp();
+    $(this).next().slideDown();
+    prevFaqBtn = this;
+
+  }
+
+ })
+
+
+
 });
 
 
