@@ -22,7 +22,10 @@ $(document).ready(function (){
 
   // FAQ
 
+$('.js-accordion-btn').on('click', function () {
+$(this).next().slideToggle();
 
+})
 
 
 
