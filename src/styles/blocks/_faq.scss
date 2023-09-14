@@ -16,4 +16,37 @@
   text-align: center;
 }
 
+.accordion-btn {
+  padding: 25px;
+  width: 100%;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 45, 45, .2);
+  background-color: #FFF;
+  font-family: $font;
+  color: #152B3C;
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 300;
+}
 
+p {
+  font-family: $font;
+  color: #000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+
+
+
+
+.accordion {
+  // display: flex;
+
+}
+
+.accordion-info {
+  // display: none;
+}

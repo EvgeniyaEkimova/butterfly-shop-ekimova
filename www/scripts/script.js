@@ -1,44 +1,26 @@
-// const { active } = require("browser-sync");
+$(document).ready(function (){
 
-$(document).ready(function () {
 
-$('.header-burger').on('click', function (){
-  $('.menu').slideToggle();
-})
+  $('.header-burger').on('click', function (){
+    $('.menu').slideToggle();
+  });
 
-$('.js-tab-link').on('click', function (event) {
-  event.preventDefault ();
+  $('.js-tab-link').on('click', function (event){
 
-  $('.js-tab-link').removeClass('active');
-  $(this).addClass('active');
+    event.preventDefault ();
 
-  let index = $(this).index('.js-tab-link');
+    $('.js-tab-link').removeClass('active');
+    $(this).addClass('active');
 
-  $('.js-contacts-info').removeClass('visible');
-  $('.js-contacts-info').eq(index).addClass('visible');
+    let index = $(this).index('.js-tab-link');
 
+    $('.js-contacts-info').removeClass('visible');
+    $('.js-contacts-info').eq(index).addClass('visible');
+
+  });
 
 
   // FAQ
-  let=prevFaqBtn
-
- $('.js-faq-btn').on('click', function(){
-  if(this == prevFaqBtn){
-    $(this).next().slideToggle();
-
-  } else {
-    $(prevFaqBtn).next().slideUp();
-    $(this).next().slideDown();
-    prevFaqBtn = this;
-
-  }
-
- })
-
-
-
-});
-
 
 
 
